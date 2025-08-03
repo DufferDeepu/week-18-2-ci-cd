@@ -29,4 +29,5 @@ jobs:
         tags: dufferdeepu/week-18-class
 
     - name: verify pushed image
-      run: docker pull dufferdeepu/week-18-class
+      run: docker pull dufferdeepu/week-18-class:latest
+
